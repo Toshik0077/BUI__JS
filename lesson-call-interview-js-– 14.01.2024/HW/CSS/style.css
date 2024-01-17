@@ -1,0 +1,22 @@
+/* body{
+    width: 50%;
+    margin: auto;
+}
+#img-bag{
+    width: 200px;
+    height: 200px;
+}
+
+.rotate-image {
+    animation: rotate 4s linear infinite; 
+    transform-origin: center center; 
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */

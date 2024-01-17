@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+    font-family: sans-serif;}
+    .title {
+    text-align: center;
+    margin: 1em;}
+    .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;}
+    .menu-item {
+    cursor: pointer;
+    padding: 10px;}
+    .content {
+    width: 800px;
+    margin: 2em auto;}
+    .menu-item.active {
+    background-color: #2e2a2a;
+    color: white;}
+
+    .content-item{
+        display: none;
+    }
+
+    .active {
+        background-color: #2e2a2a;
+        color: white;}
+
+    .active-content {
+        display: block;
+    }
