@@ -137,10 +137,10 @@
 /**********************************************************Завдання 5********************************************************************************************** */
 // Завдання 5. на використання події "mouseover" і "mouseout":
 // Створіть HTML-елемент (наприклад, картинку) з заданим id. Використовуючи JavaScript, додайте події, які реагують на наведення миші на елемент ("mouseover") та виходження миші за межі елемента ("mouseout"). При наведенні змініть розмір або обертайте елемент, а при виході відновіть його початковий стан.
-// const imgBag = document.getElementById('img-bag');
-// imgBag.addEventListener('mouseover', () => {
-// 	imgBag.className = 'rotate-image';
-// });
-// imgBag.addEventListener('mouseout', () => {
-// 	imgBag.className = '';
-// });
+const imgBag = document.getElementById('img-bag');
+imgBag.addEventListener('mouseover', () => {
+	imgBag.className = 'rotate-image';
+});
+imgBag.addEventListener('mouseout', () => {
+	imgBag.className = '';
+});
